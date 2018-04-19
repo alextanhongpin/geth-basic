@@ -8,15 +8,15 @@
   if (web3.isConnected()) {
     console.log('connected')
   }
-  const balance = web3.eth.getBalance(ERC20_CONTRACT)
-  console.log('balance:', balance)
+  // const balance = web3.eth.getBalance(ERC20_CONTRACT)
+  // console.log('balance:', balance)
 
   const block = web3.eth.getBlock('earliest') // earliest, latest, pending
   console.log('blockNumber:', block, web3.eth.blockNumber)
   console.log('syncing:', web3.eth.syncing)
 
-  const transaction = web3.eth.getTransaction('TxHash')
-  console.log('transaction:', transaction)
+  // const transaction = web3.eth.getTransaction('TxHash')
+  // console.log('transaction:', transaction)
 
   // checkTransactionCount allows you to check for blocks in a ranges
   function checkTransactionCount (startBlockNumber, endBlockNumber) {
