@@ -1,3 +1,13 @@
+## Installing web3
+
+```bash
+# Doesn't work
+$ yarn add web3 
+
+# Works
+$ yarn add web3@^0.19.0
+```
+
 ## Main Network
 
 Starting the geth network:
