@@ -82,16 +82,22 @@ $ geth removedb --datadir /path/to/blockchain
 $ geth --fast --cache=1024
 ```
 
-<!-- 
+## Web3 Commands
 
-// const sync = web3.eth.syncing
-// {
-//   currentBlock: 620683,
-//   highestBlock: 5468974,
-//   knownStates: 592635,
-//   pulledStates: 588579,
-//   startingBlock: 251572
-// }
+### web3.eth.syncing
+
+```js
+web3.eth.syncing
+{
+  currentBlock: 620683,
+  highestBlock: 5468974,
+  knownStates: 592635,
+  pulledStates: 588579,
+  startingBlock: 251572
+}
+```
+
+<!-- 
 // const lastBlock = 0
 
 web3.version.api
